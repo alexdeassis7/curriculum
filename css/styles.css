@@ -1,0 +1,83 @@
+.main-container {
+    width: 1200px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+aside {
+    background-color: #647087;
+    margin-right: 20px;
+    padding: 0 10px;
+}
+
+aside * {
+    color: white;
+}
+
+aside h2 {
+    letter-spacing: 5px;
+}
+
+aside section h2:first-child {
+    border-bottom: 2px solid white;
+}
+
+#profile-pic {
+    text-align: center;
+}
+
+#profile-pic img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+main section>h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.references {
+    display: flex;
+}
+
+.references img {
+    width: 100px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt,
+dd {
+    border-top: 1px solid white;
+    line-height: 1.5cm;
+    margin: 0;
+    flex-basis: 50%;
+}
+
+dt {
+    font-weight: bolder;
+}
+
+meter {
+    width: 70%;
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: #b88ba4;
+}
+
+meter::-webkit-meter-bar {
+    background-color: #131212;
+
+}
